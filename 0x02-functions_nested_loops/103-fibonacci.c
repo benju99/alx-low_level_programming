@@ -5,6 +5,7 @@
  * less than 4000000.
  * Return: Nothing!
  */
+
 int main(void)
 {
 	int i = 0;
@@ -18,6 +19,6 @@ int main(void)
 	j = k - j;
 	++i;
 	}
-	printf("%ld\n", sum)
+	printf("%ld\n", sum);
 	return (0);
 }
