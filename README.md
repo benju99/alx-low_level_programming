@@ -1,1 +1,1 @@
-Learning C today
+Welcome to C
