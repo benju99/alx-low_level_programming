@@ -17,7 +17,11 @@ char *cap_string(char *str)
 
 	for (i = 0; i < length; i++)
 	{
-		if (*(str + i) == '\n' || *(str + i) == '\t' || *(str + i) == ' ' || *(str + i) == ',' || *(str + i) == ';' || *(str + i) == '.' || *(str + i) == '!' || *(str + i) == '?' || *(str + i) == '"' || *(str + i) == '(' || *(str + i) == ')' || *(str + i) == '{' || *(str + i) == '}')
+		if (*(str + i) == '\n' || *(str + i) == '\t' || *(str + i) == ' '
+		|| *(str + i) == ',' || *(str + i) == ';' || *(str + i) == '.' ||
+		*(str + i) == '!' || *(str + i) == '?' ||
+		*(str + i) == '"' || *(str + i) == '(' ||
+		*(str + i) == ')' || *(str + i) == '{' || *(str + i) == '}')
 		{
 			converted = 0;
 		}
