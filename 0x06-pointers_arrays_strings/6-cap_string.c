@@ -8,7 +8,6 @@
  * Return: Capitalized strings
  *
  */
-
 char *cap_string(char *str)
 {
 	int converted = 0, length, i;
